@@ -41,7 +41,7 @@ function renderSurveys(survey){
             <p style ={{fontSize:'10px'}}>{survey.body}</p>
             </div>
             <div className="card-action" style ={{fontSize:'10px'}}>
-                {survey.userAnswers.map((ans,index)=><a>{ans}: <div style={{color:'white', display:'inline'}}>{survey[`answear${index+1}`]}</div></a>)}
+                {survey.userAnswers.map((ans,index)=><a key ={index}>{ans}: <div style={{color:'white', display:'inline'}}>{survey[`answear${index+1}`]}</div></a>)}
             </div>
             </div>
     </div>
@@ -56,8 +56,8 @@ function header(){
             <ul id="nav-mobile" className="right ">
                 <li key ="1" style= {{backgroundColor: "#4db6ac"}}><a>Add credits</a></li>
                 <li key ="4"><a>Credits: 7</a></li>
-                <li key = "2"><a href="!#">Log Out</a></li>
-                <li key = "3"><a href="!#">About</a></li>
+                <li key = "2"><a >Log Out</a></li>
+                <li key = "3"><a>About</a></li>
             </ul>
             </div>
         </nav>

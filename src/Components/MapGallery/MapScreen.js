@@ -19,8 +19,8 @@ const urls = ['https://picsor.000webhostapp.com/IMG_4684.jpg','https://picsor.00
 const imgs = urls.map(url =>{return({
         src: url,
         thumbnail: url,
-        thumbnailWidth: '400',
-        thumbnailHeight: '230'
+        thumbnailWidth: 400,
+        thumbnailHeight: 230
 })});
 
 export default function MapScreen() {
@@ -28,8 +28,8 @@ export default function MapScreen() {
     <div>
     <Map center={[-13.2928, -72.0845]} zoom={10} dragging={false} zoomControl={false} style={{width:'100%',height:'60vh'}}>
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
-      {subPositions.map(pos=><Marker position ={pos}/>)}
-      {positions.map(pos=><Marker position ={pos}/>)}
+      {subPositions.map((pos,index)=><Marker position ={pos} key={index}/>)}
+      {positions.map((pos,index)=><Marker position ={pos} key={index}/>)}
       <Marker position = {[-13.2928, -72.0845]} icon = {greenIcon}/>
       <Marker position = {[-13.2584, -72.2643]} icon = {greenIcon}/>
       <AntPath positions={positions} options={antPathOptions} /> 

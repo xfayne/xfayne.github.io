@@ -13,15 +13,15 @@ export default function EmailyText() {
              collected by the server, and can easily compare the results from his previous campaigns for optimizing his email marketing results. 
              
             <br/><br/>
-            Technologies used in this project:
-            <ul>
+            Technologies used in this project:</p>
+            <ul className = "light white-text" style={{fontSize:'17px', marginLeft:'30px'}}>
                 <li>Frontend: React, Redux</li>
                 <li>Backend: Node.js, Express, PassportJS, MongoDB</li>
                 <li>Authentication: Google OAuth</li>
                 <li>Payments: Stripe</li>
                 <li>Email handling: SendGrid</li>
             </ul>
-           </p><br/>
+           <br/>
            <a href="https://safe-oasis-70897.herokuapp.com/" className="grey darken-3 waves-effect waves-light btn right" style={{marginRight:'40px'}}>
                <i className="material-icons right">web</i>visit</a>
         </div>
