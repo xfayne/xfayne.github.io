@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Text from './EmailyText'
+export const EmailyText = Text
 const survey1 = {
     answear1 : 512,
     answear2 : 37,

@@ -3,7 +3,9 @@ import Gallery from 'react-grid-gallery'
 import Leaflet from 'leaflet';
 import { Map, TileLayer, Marker} from 'react-leaflet'
 import AntPath from "react-leaflet-ant-path"
+import Text from './MapText'
 
+export const MapText = Text
 const antPathOptions = { delay: 800, dashArray: [10,20], weight: 5, color: "#0000FF", pulseColor: "#FFFFFF" }
 const antPathOptions2 = { delay: 800, dashArray: [10,20], weight: 5, color: "#9CF0FF", pulseColor: "#00A88F" }
 const greenIcon = new Leaflet.Icon({
