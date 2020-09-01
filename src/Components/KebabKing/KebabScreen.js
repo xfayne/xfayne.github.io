@@ -29,12 +29,12 @@ export default function KebabScreen(props) {
 
     return (
         <div style = {{position: 'relative', zIndex: '0'}}>
-            
             <img src = {background} alt = '' style={{maxWidth:' 100%',maxHeight: '100%'}}/>
-            <img src = {ars} alt = '' style={{...sizes, zIndex:'2', left: arsPos}}/>      
-            <img src = {etiopi} alt = '' style={{...sizes, zIndex:'3',transition: 'all 6s ease-out', right: etpoiPos}}/>       
-            <img src = {girl} alt = '' style={{...sizes, zIndex: '4', right: girlPos}}/>  
-            <img src = {giant} alt = '' style={{...sizes, zIndex:'1',transition: 'all 5s ease-out', left: giantPos}}/>
+            {props.fade===true? <div>
+                <img src = {ars} alt = '' style={{...sizes, zIndex:'2', left: arsPos}}/>      
+                <img src = {etiopi} alt = '' style={{...sizes, zIndex:'3',transition: 'all 6s ease-out', right: etpoiPos}}/>       
+                <img src = {girl} alt = '' style={{...sizes, zIndex: '4', right: girlPos}}/>  
+                <img src = {giant} alt = '' style={{...sizes, zIndex:'1',transition: 'all 5s ease-out', left: giantPos}}/></div>:''}
             
             <img src = {table} alt = '' style={{maxWidth:' 100%',maxHeight: '100%',position: 'absolute', zIndex: '5', top:'0px', left:'0px'}}/>
         </div>
