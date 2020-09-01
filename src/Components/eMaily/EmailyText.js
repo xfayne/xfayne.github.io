@@ -1,9 +1,9 @@
 import React from 'react'
-
+export const emailyHeader = <h4 className = "light white-text"> eMaily Web App </h4>
 export default function EmailyText() {
     return (
         <div>
-            <h4 className = "light white-text"> eMaily Web App </h4>
+            <div className = "hide-on-small-only">{emailyHeader}</div>
             <p className = "light white-text" style={{fontSize:'17px'}}>
             A self lerning project to build full-stack service using Node.js, MongoDB, React, and more.
             <br/> <br/>
@@ -23,7 +23,7 @@ export default function EmailyText() {
             </ul>
            <br/>
            <a href="https://safe-oasis-70897.herokuapp.com/" className="grey darken-3 waves-effect waves-light btn right" style={{marginRight:'2vw'}}>
-               <i className="material-icons right">web</i>visit</a>
+               <i className="material-icons right">web</i>visit</a><br/>
         </div>
     )
 }

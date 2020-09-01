@@ -1,9 +1,9 @@
 import React from 'react'
-
+export const mapHeader = <h4 className = "light white-text"> Interactive Drive Gallery </h4>
 export default function MapText() {
     return (
         <div>
-            <h4 className = "light white-text"> Interactive Drive Gallery </h4>
+            <div className ="hide-on-small-only">{mapHeader}</div>
             <p className = "light white-text" style={{fontSize:'17px'}}>
             We all have our photos from our lovely trips piled up in folders somewhere on the hard drive or in the cloud.
             But when we want to enjoy the memories, and watch them ourselves or with others - the regular storage 
@@ -20,7 +20,7 @@ export default function MapText() {
             others can connect with their Google account and in a few steps will get their own friendly gallery like mine.</p>
             
             <a href="https://gallery-website.herokuapp.com/" className="grey darken-3 waves-effect waves-light btn right" style={{marginRight:'1vw'}}>
-               <i className="material-icons right">web</i>visit</a>
+               <i className="material-icons right">web</i>visit</a><br/>
         </div>
     )
 }

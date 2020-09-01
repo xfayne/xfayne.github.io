@@ -1,6 +1,7 @@
 import React from 'react'
-import Text from './EmailyText'
-export const EmailyText = Text
+import Text,{emailyHeader} from './EmailyText'
+export const EmailyText= Text
+export const EmailyHeader = emailyHeader
 const survey1 = {
     answear1 : 512,
     answear2 : 37,
@@ -53,12 +54,12 @@ function header(){
     return (
         <nav>
             <div className="nav-wrapper">
-            <a href="/" className="left brand-logo" style={{paddingLeft:'10px'}}>eMaily</a>
+            <a href="/" className="left brand-logo" style={{paddingLeft:'1vw'}}>eMaily</a>
             <ul id="nav-mobile" className="right ">
                 <li key ="1" style= {{backgroundColor: "#4db6ac"}}><a>Add credits</a></li>
                 <li key ="4"><a>Credits: 7</a></li>
                 <li key = "2"><a >Log Out</a></li>
-                <li key = "3"><a>About</a></li>
+                <li className ="hide-on-small-only" key = "3"><a>About</a></li>
             </ul>
             </div>
         </nav>

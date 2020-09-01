@@ -27,11 +27,11 @@ const Footer = ()=>
     <a href="https://www.facebook.com/or.fayne"> {socialButton('facebook')}</a>
     <a href="mailto:xfayne@gmail.com">{socialButton('envelope')}</a>
 </footer>
-
+export const BioHeader = <h4 className = "light white-text">My name is Or Fayneh and I am a junior software engineer </h4>
 export default function BioText() {
     return (
         <div>
-            <h4 className = "light white-text">My name is Or Fayneh and I am a junior software engineer </h4>
+            <div className ="hide-on-small-only">{BioHeader}</div>
             <p className = "light white-text" style={{fontSize:'17px'}}>I was born and raised in Israel, a breeding pool of technology and innovation. I first started programming at the age of 14, trying to learn how to hack my PlayStation Portable so that I could play free games - and very quickly found myself hacking other people PSP's for money after school. Through the PSP hacking community, I learned about the vast potential surrounding computers, programming, and the internet.
             <br/> <br/>
             I graduated from the Tel Aviv University studying bachelor's program in Computer Science and Psychology - emphasizing

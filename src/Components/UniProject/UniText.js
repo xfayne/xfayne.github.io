@@ -2,11 +2,11 @@ import React from 'react'
 import PredApp from './PredApp.png'
 
 export const UniScreen = () => <img src = {PredApp} alt = '' style={{maxWidth:' 100%',maxHeight: '100%'}}/>
-
+export const UniHeader = <h4 className = "light"> RT Predictor of Cognitive Load and Stress - University Project </h4>
 export default function UniText() {
     return (
         <div>
-            <h4 className = "light"> RT Predictor of Cognitive Load and Stress - University Project </h4>
+            <div className ="hide-on-small-only">{UniHeader}</div>
             <p className = "light" style={{fontSize:'17px'}}>
             In our stressful world, the maintenance of an optimal cognitive performance is a constant
             challenge. Particularly true in complex and stressful working environments, where cognitive
@@ -22,6 +22,7 @@ export default function UniText() {
             complete experiment block session, the app calculating the final prediction and present it on the screen. 
             </p>
             <a href = "https://picsor.000webhostapp.com/Project-Booklet.pdf" className="grey darken-3 waves-effect waves-light btn right"><i className="material-icons right">book</i>read more</a>
+            <br/>
         </div>
     )
 }

@@ -5,9 +5,10 @@ import ars from './ars.png'
 import giant from './giant.png'
 import girl from './girl.png'
 import etiopi from './etiopi.png'
-import Text from './KebabText'
+import Text,{kebabHeader} from './KebabText'
 
 export const KebabText = Text
+export const KebabHeader = kebabHeader
 const sizes = {maxWidth:' 70%',maxHeight: '70%',position: 'absolute', top:'0px',transition: 'all 2s ease-out'}
 
 export default function KebabScreen(props) {

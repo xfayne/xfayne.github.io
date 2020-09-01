@@ -1,9 +1,9 @@
 import React from 'react'
-
+export const kebabHeader = <h4 className = "light white-text"> Kebab King iOS and Android game </h4>
 export default function KebabText() {
     return (
         <div>
-            <h4 className = "light white-text"> Kebab King iOS and Android game </h4>
+            <div className = "hide-on-small-only">{kebabHeader}</div>
             <p className = "light white-text" style={{fontSize:'18px'}}>
             After I finished my military service I had some ideas for mobile games that I wanted to make. 
             I used a platform called GameSalad which is a visual editor (drag and drop) that provides the outer 
@@ -17,7 +17,7 @@ export default function KebabText() {
             "Falafel King". <br/><br/>The game reached the top 10 of the games in Israel in the Android Play store for a while and had over 50,000 downloads there.</p>
             <a href="https://www.youtube.com/watch?v=FGOeqZzsAFE" className="grey darken-3 waves-effect waves-light btn right">
                 <i className="material-icons right">movie</i>demo</a>
-
+                <br/>
         </div>
     )
 }
