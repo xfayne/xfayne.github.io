@@ -1,13 +1,18 @@
 import React from 'react'
 import PredApp from './PredApp.png'
 
-export const UniScreen = () => <img src = {PredApp} alt = '' style={{maxWidth:' 100%',maxHeight: '100%'}}/>
-export const UniHeader = <h4 className = "light"> RT Predictor of Cognitive Load and Stress - University Project </h4>
+export const UniScreen = () => <div>
+    <img className ="hide-on-small-only" src = {PredApp} alt = '' style={{width:'121vh',height: '100vh'}}/>
+    <img className ="hide-on-med-and-up" src = {PredApp} alt = '' style={{width:'100%',height: '100%'}}/></div>
+export const UniHeader = 
+    <h4 className = "light white-text"> RT Predictor of Cognitive Load and Stress - University Project </h4>
+
+const height = (window.screen.width/window.screen.height) >1? '100vh' : undefined
 export default function UniText() {
     return (
-        <div>
-            <div className ="hide-on-small-only">{UniHeader}</div>
-            <p className = "light" style={{fontSize:'17px'}}>
+        <div style = {{position: 'relative', zIndex: '0',height:height}}>
+            <div className ="hide-on-small-only light white-text" style={{fontSize:'5vh'}}>RT Predictor of Cognitive Load and Stress - University Project</div>
+            <p className = "light white-text" style={{fontSize:'2.7vh'}}>
             In our stressful world, the maintenance of an optimal cognitive performance is a constant
             challenge. Particularly true in complex and stressful working environments, where cognitive
             performance is crucial, like pilots. This project was done at Neural computation lab cunducting a 
@@ -21,7 +26,8 @@ export default function UniText() {
             and displying the cleared data signals. When finishing accumulating data of a
             complete experiment block session, the app calculating the final prediction and present it on the screen. 
             </p>
-            <a href = "https://picsor.000webhostapp.com/Project-Booklet.pdf" className="grey darken-3 waves-effect waves-light btn right"><i className="material-icons right">book</i>read more</a>
+            <br/><br/>
+            <a href = "https://picsor.000webhostapp.com/Project-Booklet.pdf" className="grey darken-3 btn" style={{position:'absolute',zIndex: '1',right:'0px',bottom:'1vh'}}><i className="material-icons right">book</i>read more</a>
             <br/>
         </div>
     )

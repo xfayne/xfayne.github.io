@@ -22,8 +22,8 @@ const urls = ['https://picsor.000webhostapp.com/IMG_4684.jpg','https://picsor.00
 const imgs = urls.map(url =>{return({
         src: url,
         thumbnail: url,
-        thumbnailWidth: 400,
-        thumbnailHeight: 230
+        thumbnailWidth: window.innerHeight*0.4*16/9,
+        thumbnailHeight: window.innerHeight*0.4
 })});
 
 export default function MapScreen() {
@@ -38,7 +38,7 @@ export default function MapScreen() {
       <AntPath positions={positions} options={antPathOptions} /> 
       <AntPath positions={subPositions} options={antPathOptions2} /> 
   </Map>
-  <Gallery images={imgs} enableImageSelection={false} rowHeight={245} />
+  <Gallery images={imgs} enableImageSelection={false} rowHeight={window.innerHeight*0.4} />
 </div>
   )
 

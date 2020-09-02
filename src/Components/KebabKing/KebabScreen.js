@@ -9,7 +9,7 @@ import Text,{kebabHeader} from './KebabText'
 
 export const KebabText = Text
 export const KebabHeader = kebabHeader
-const sizes = {maxWidth:' 70%',maxHeight: '70%',position: 'absolute', top:'0px',transition: 'all 2s ease-out'}
+const sizes = {maxWidth:' 70%',maxHeight: '70%',position: 'absolute', bottom:'30%',transition: 'all 2s ease-out'}
 
 export default function KebabScreen(props) {
     const [arsPos,setArsPos] = useState('0px')
