@@ -21,12 +21,12 @@ const socialButton = (platform)=>
     </Styled>
 
 const Footer = ()=>
-<footer className = "row">
+<div className = "row center" style={{display:'0px'}}>
     <a href="https://www.linkedin.com/in/or-fayne-988a81190/" > {socialButton('linkedin')}</a>
     <a href="https://www.instagram.com/xfayne/" >{socialButton('instagram')}</a>
     <a href="https://www.facebook.com/or.fayne"> {socialButton('facebook')}</a>
     <a href="mailto:xfayne@gmail.com">{socialButton('envelope')}</a>
-</footer>
+</div>
 
 export const BioHeader = <h4 className = "light white-text">My name is Or Fayneh and I am a junior software engineer </h4>
 
@@ -43,9 +43,9 @@ export default () =>
     I graduated from the Tel Aviv University studying bachelor's program in Computer Science and Psychology - emphasizing
     neuroscience from the computational aspects, and now willing to start my first steps in the software development field.
     <br/><br/>
-    I have knowloadge in JAVA, Javascript (including Node JS, React, Redux), Python, C, HTML, CSS and MongoDB.
-    <br/><br/>
-    Scrolling down you can see some of my works, please feel free to use any of the social links below to contact me.
+    I have knowledge in JAVA, Javascript (including Node JS, React, Redux), Python, C, HTML, CSS and MongoDB. In my free time, 
+    I like to practice it by developing code projects on areas that interest me, scrolling down you can see some of my works. 
+    <Footer />
     </p>
-    <div className= "center"><Footer /></div>
+    
 </div>

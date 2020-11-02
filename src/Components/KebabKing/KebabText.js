@@ -5,8 +5,8 @@ const height = (window.screen.width/window.screen.height) >1? '100vh' : undefine
 export default function KebabText() {
     return (
         <div style = {{position: 'relative', zIndex: '0',height:height}}>
-            <div className = "hide-on-small-only light white-text" style={{fontSize:'5vh'}}>Kebab King iOS and Android game</div>
-            <p className = "light white-text" style={{fontSize:'2.7vh'}}>
+            <div className = "hide-on-small-only light" style={{fontSize:'5vh'}}>Kebab King iOS and Android game</div>
+            <p className = "light" style={{fontSize:'2.7vh'}}>
             After I finished my military service I had some ideas for mobile games that I wanted to make. 
             I used a platform called GameSalad which is a visual editor (drag and drop) that provides the outer 
             shell of development and is based on behavior and logic, events and object oriented.

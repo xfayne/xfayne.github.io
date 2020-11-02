@@ -4,24 +4,32 @@ const height = (window.screen.width/window.screen.height) >1? '100vh' : undefine
 export default function MapText() {
     return (
         <div style = {{position: 'relative', zIndex: '0',height:height}}>
-            <div className ="hide-on-small-only light white-text" style={{fontSize:'5.5vh'}}>Interactive Drive Gallery</div>
-            <p className = "light white-text" style={{fontSize:'2.65vh'}}>
-            We all have our photos from our lovely trips piled up in folders somewhere on the hard drive or in the cloud.
-            But when we want to enjoy the memories, and watch them ourselves or with others - the regular storage 
-            folders interface is clearly not the most fun thing. <br/><br/>
-            As someone who enjoys both travel and photography this problem was very close to me, so I wanted to make 
-            the ultimate photo gallery for my needs;
-            Divided by countries around the globe, so that in each country where I traveled the photos are arranged by their locations 
-            and their sub-locations on a map, and chronological routes by dates displayed on the map as well.<br/><br/>
-            The app is synced with my Google Drive account so if I travel to a new place and upload new pictures
-            the gallery will be updated immediately.
+            <div className ="hide-on-small-only light white-text" style={{fontSize:'5.5vh'}}>TravelBloggers (in progress)<br/>
+            <div style={{fontSize:'2vh'}}>Tech used: React, Redux, Node.js, Express, PassportJS, MongoDB, Google OAuth, Bootstrap</div></div>
+            
+            <p className = "light white-text" style={{fontSize:'2.6vh'}}>    
+            During recent years I traveled a lot and took tens of thousands of photos that were slowly pilling up in 
+            folders on my cloud storage. When I wanted to enjoy and watch my photos by myself or with others, I found out that the regular 
+            storage folders interface is clearly not the most fun thing for that could be. <br/><br/>
+
+            As a result I've created TravelBloggers - a platform that turn your regular cloud storage into beautiful travel blog and a 
+            community for exploring itineraries and trips uploaded by other bloggers.
             <br/><br/>
-            In this project I used React and Redux, and it's actually the front-end side of a larger project that I work on 
-            right now - an web interface wich
-            others can connect with their Google account and in a few steps will get their own friendly gallery like mine.</p>
+            After an easy setup, we offer the user a customizable design blog based on his cloud folders pictures,
+            the photos from each folder are arranged as a dated itinerary on an interactive map, making it 
+            fun to navigate between and inside trips. The blog is being update behind the scences when new pictures adding to the cloud.
             <br/><br/>
-            <a href="https://gallery-website.herokuapp.com/" className="grey darken-3 btn" style={{position:'absolute',zIndex: '1',right:'0px',bottom:'1vh'}}>
-               <i className="material-icons right">web</i>visit</a><br/>
+            We offer users that like to plan their next trip to be inspired by other travelers and search for trips and itineraries that done by real people. If the user
+            is also maintaining a blog, our algorithms can offer new trips based on his past.
+           </p>
+            <br/><br/>
+            <div style={{position:'absolute',zIndex: '1',right:'0px',bottom:'1vh'}}>
+               <a href="https://mytravelsblog.herokuapp.com/5f5a39d1b94c4c105c885fc2" className="grey darken-3 btn" style={{marginRight:'0.3vw'}}>
+               <i className="material-icons right">camera_alt</i>my blog</a>
+            <a href="https://travelbloggers.herokuapp.com/" className="grey darken-3 btn">
+               <i className="material-icons right">web</i>visit</a><br/> 
+            </div>
+            
         </div>
     )
 }

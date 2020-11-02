@@ -17,7 +17,7 @@ import BioText,{BioImage,BioHeader} from './Components/BioText'
     const box = () =>
     <div className="row hide-on-small-only">
         <div className={leftBox} style = {grid==="left"?textStyle:screenStyle}>
-            {grid==="left"?<TextComp style ={{height: '100vh'}}/>:<ScreenComp fade ={fade}/>}
+            {grid==="left"?<TextComp/>:<ScreenComp fade ={fade}/>}
           </div>
         <div className={rightBox} style = {grid==="right"?textStyle:screenStyle}>
             {grid==="right"?<TextComp/>:<ScreenComp fade ={fade}/>} 
@@ -48,7 +48,7 @@ function App() {
       <ScreenBox grid = 'right' colorTxt ='deep-orange darken-4' colorScreen ='white'  TextComp={MapText} ScreenComp={MapScreen} HeaderComp ={MapHeader}/>
       <ScreenBox grid = 'left' colorTxt ='blue-grey darken-1' colorScreen ='white' TextComp={EmailyText} ScreenComp={EmailyScreen} />
       <ScreenBox grid = 'right' colorTxt ='teal' colorScreen ='teal' TextComp={UniText} ScreenComp={UniScreen} HeaderComp ={UniHeader}/>
-      <ScreenBox grid = 'left' colorTxt ='amber accent-4' colorScreen ='grey darken-4' TextComp={KebabText} ScreenComp={KebabScreen} HeaderComp ={KebabHeader} align="valign-wrapper"/>   
+      <ScreenBox grid = 'left' colorTxt ='amber lighten-1' colorScreen ='grey darken-4' TextComp={KebabText} ScreenComp={KebabScreen} HeaderComp ={KebabHeader} align="valign-wrapper"/>   
       <div className = "grey darken-1 white-text center-align">© 2020 Or Fayneh</div>
     </div>
   )
