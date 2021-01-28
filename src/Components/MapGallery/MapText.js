@@ -24,8 +24,8 @@ export default function MapText() {
            </p>
             <br/><br/>
             <div style={{position:'absolute',zIndex: '1',right:'0px',bottom:'1vh'}}>
-               <a href="https://mytravelsblog.herokuapp.com/5f5a39d1b94c4c105c885fc2" className="grey darken-3 btn" style={{marginRight:'0.3vw'}}>
-               <i className="material-icons right">camera_alt</i>my blog</a>
+               <a href="https://mytravelsblog.herokuapp.com/KKB1LRsnz" className="grey darken-3 btn" style={{marginRight:'0.3vw'}}>
+               <i className="material-icons right">camera_alt</i>example blog</a>
             <a href="https://travelbloggers.herokuapp.com/" className="grey darken-3 btn">
                <i className="material-icons right">web</i>visit</a><br/> 
             </div>
