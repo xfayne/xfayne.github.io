@@ -17,7 +17,7 @@ export default function MapText() {
             <br/><br/>
             After an easy setup, we offer the user a customizable design blog based on his cloud folders pictures.
             The photos from each folder are arranged as a dated itinerary on an interactive map, making it 
-            fun to navigate between and inside trips. The blog is being update behind the scences when new pictures adding to the cloud.
+            fun to navigate between and inside trips. The blog is being update behind the scences when new pictures are adding to the cloud.
             <br/><br/>
             We offer the user to be inspired by other travelers and reveal new trips and itineraries that done by real people. If the user
             is also maintaining a blog, our algorithms can offer new trips based on his past.
