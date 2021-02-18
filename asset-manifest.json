@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/static/js/main.c66a5a4b.chunk.js",
+    "main.js.map": "/static/js/main.c66a5a4b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.4feabad6.chunk.js": "/static/js/2.4feabad6.chunk.js",
+    "static/js/2.4feabad6.chunk.js.map": "/static/js/2.4feabad6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.158c4dff80af4b40a93805fabdb5e108.js": "/precache-manifest.158c4dff80af4b40a93805fabdb5e108.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.4feabad6.chunk.js.LICENSE.txt": "/static/js/2.4feabad6.chunk.js.LICENSE.txt",
+    "static/media/PredApp.png": "/static/media/PredApp.0abf4b84.png",
+    "static/media/ars.png": "/static/media/ars.5fe3e61c.png",
+    "static/media/background.png": "/static/media/background.2c88bb34.png",
+    "static/media/etiopi.png": "/static/media/etiopi.d9e54a76.png",
+    "static/media/giant.png": "/static/media/giant.771d658e.png",
+    "static/media/girl.png": "/static/media/girl.9f67f608.png",
+    "static/media/linkedin_pic.png": "/static/media/linkedin_pic.9c874ddc.png",
+    "static/media/table.png": "/static/media/table.9cef0351.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.4feabad6.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.c66a5a4b.chunk.js"
+  ]
+}
