@@ -12,14 +12,14 @@ export default function MapText() {
             folders on my cloud storage. When I wanted to enjoy and watch my photos by myself or with others, I found out that the regular 
             storage folders interface is clearly not the most fun thing for that could be. <br/><br/>
 
-            As a result I've created TravelBloggers - a platform that turn your regular cloud storage into beautiful travel blog and a 
+            As a result I've created TravelBloggers - a social network that give the user a beautiful travel blog based on his regular cloud storage and connect him with 
             community for exploring itineraries and trips uploaded by other bloggers.
             <br/><br/>
-            After an easy setup, we offer the user a customizable design blog based on his cloud folders pictures,
-            the photos from each folder are arranged as a dated itinerary on an interactive map, making it 
+            After an easy setup, we offer the user a customizable design blog based on his cloud folders pictures, very easy to maintain.
+            The photos from each folder are arranged as a dated itinerary on an interactive map, making it 
             fun to navigate between and inside trips. The blog is being update behind the scences when new pictures adding to the cloud.
             <br/><br/>
-            We offer users that like to plan their next trip to be inspired by other travelers and search for trips and itineraries that done by real people. If the user
+            We offer the user to be inspired by other travelers and reveal new trips and itineraries that done by real people. If the user
             is also maintaining a blog, our algorithms can offer new trips based on his past.
            </p>
             <br/><br/>
