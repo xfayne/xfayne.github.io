@@ -24,7 +24,7 @@ export default function EmailyText() {
                 <li>Email handling: SendGrid</li>
             </ul>
            <br/><br/><br/>
-           <a href="https://safe-oasis-70897.herokuapp.com/" className="grey darken-3 btn" style={{position:'absolute',zIndex: '1',right:'2vh',bottom:'4vh'}}>
+           <a target="_blank" rel="noopener noreferrer" href="https://safe-oasis-70897.herokuapp.com/" className="grey darken-3 btn" style={{position:'absolute',zIndex: '1',right:'2vh',bottom:'4vh'}}>
                <i className="material-icons right">web</i>visit</a><br/>
         </div>
     )

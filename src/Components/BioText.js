@@ -22,19 +22,19 @@ const socialButton = (platform)=>
 
 const Footer = ()=>
 <div className = "row center" style={{display:'0px'}}>
-    <a href="https://www.linkedin.com/in/or-fayne-988a81190/" > {socialButton('linkedin')}</a>
-    <a href="https://www.instagram.com/xfayne/" >{socialButton('instagram')}</a>
-    <a href="https://www.facebook.com/or.fayne"> {socialButton('facebook')}</a>
-    <a href="mailto:xfayne@gmail.com">{socialButton('envelope')}</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/or-fayne-988a81190/" > {socialButton('linkedin')}</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/xfayne/" >{socialButton('instagram')}</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/or.fayne"> {socialButton('facebook')}</a>
+    <a target="_blank" rel="noopener noreferrer" href="mailto:xfayne@gmail.com">{socialButton('envelope')}</a>
 </div>
 
 export const BioHeader = <h4 className = "light white-text">My name is Or Fayneh and I am a junior software engineer </h4>
 
 export default () =>
     <div>
-    <div className ="hide-on-small-only light white-text" style={{fontSize:'5vh'}}>
+    <div className ="hide-on-small-only light white-text" style={{fontSize:'5vh',marginBottom:'1vh'}}>
         My name is Or Fayneh and I am a junior software engineer</div>
-    <p className = "light white-text" style={{fontSize:'2.7vh'}}>I was born and raised in Israel, 
+    <div className = "light white-text" style={{fontSize:'2.7vh'}}>I was born and raised in Israel, 
     a breeding pool of technology and innovation. I first started programming at the age of 14, trying to 
     learn how to hack my PlayStation Portable so that I could play free games - and very quickly found myself 
     hacking other people PSP's for money after school. Through the PSP hacking community, I learned about 
@@ -46,6 +46,6 @@ export default () =>
     I have knowledge in JAVA, Javascript (including Node JS, React, Redux), Python, C, HTML, CSS and MongoDB. In my free time, 
     I like to practice it by developing code projects on areas that interest me, scrolling down you can see some of my works. 
     <Footer />
-    </p>
+    </div>
     
 </div>

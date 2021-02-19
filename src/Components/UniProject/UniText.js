@@ -2,7 +2,7 @@ import React from 'react'
 import PredApp from './PredApp.png'
 
 export const UniScreen = () => <div>
-    <img className ="hide-on-small-only" src = {PredApp} alt = '' style={{width:'121vh',height: '100vh'}}/>
+    <img className ="hide-on-small-only" src = {PredApp} alt = '' style={{width:'100%',height: '100vh'}}/>
     <img className ="hide-on-med-and-up" src = {PredApp} alt = '' style={{width:'100%',height: '100%'}}/></div>
 export const UniHeader = 
     <h4 className = "light white-text"> RT Predictor of Cognitive Load and Stress - University Project </h4>
@@ -27,7 +27,7 @@ export default function UniText() {
             complete experiment block session, the app calculating the final prediction and present it on the screen. 
             </p>
             <br/><br/>
-            <a href = "https://picsor.000webhostapp.com/Project-Booklet.pdf" className="grey darken-3 btn" style={{position:'absolute',zIndex: '1',right:'0px',bottom:'1vh'}}><i className="material-icons right">book</i>read more</a>
+            <a target="_blank" rel="noopener noreferrer" href = "https://picsor.000webhostapp.com/Project-Booklet.pdf" className="grey darken-3 btn" style={{position:'absolute',zIndex: '1',right:'0px',bottom:'1vh'}}><i className="material-icons right">book</i>read more</a>
             <br/>
         </div>
     )
