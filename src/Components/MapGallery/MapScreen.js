@@ -17,7 +17,8 @@ const greenIcon = new Leaflet.Icon({
 const positions = [[-13.855329912, -76.323998704], [-14.7166638, -75.1333328],[-16.3926250962, -71.5354628581]
 ,[-15.5916643, -71.87416317],[-12.260057, -70.907156],[-13.2928, -72.0845],[-9.526115,-77.528778]]
 const subPositions = [[-13.3356, -72.157],[-13.3299, -72.1971],[-13.2584, -72.2643],[-13.1631, -72.545]]
-const urls = ['https://picsor.000webhostapp.com/IMG_4684.jpg','https://picsor.000webhostapp.com/IMG_4614-2.jpg']
+//const urls = ['https://picsor.000webhostapp.com/IMG_4684.jpg','https://picsor.000webhostapp.com/IMG_4614-2.jpg']
+const urls =['https://i.ibb.co/7W6TJqH/img2.jpg','https://i.ibb.co/2tnxrvB/img1.jpg']
 
 const imgs = urls.map(url =>{return({
         src: url,

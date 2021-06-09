@@ -9,7 +9,7 @@ import BioText,{BioImage,BioHeader} from './Components/BioText'
   function ScreenBox (props) {
     const [fade,setFade] = useState(false)                                      //indicator if fade did finished
     const {grid, colorTxt, colorScreen, ScreenComp, TextComp} = props
-    const leftBox = `col ${grid==="left"?"s5":"s7"} ${grid==="left"?colorTxt:colorScreen}`
+    const leftBox = `${props.align} col ${grid==="left"?"s5":"s7"} ${grid==="left"?colorTxt:colorScreen}`
     const rightBox = `${props.align} col ${grid==="left"?"s7":"s5"} ${grid==="right"?colorTxt:colorScreen}`
     const textStyle = {height: '100vh',marginBottom:'-20px'}
     const screenStyle ={height: '100vh',marginBottom:'-20px',padding:'0'}
@@ -47,9 +47,9 @@ function App() {
       <ScreenBox grid = 'left' colorTxt ='indigo darken-4' colorScreen ='white' TextComp={BioText} ScreenComp={BioImage} HeaderComp ={BioHeader}/>
       <ScreenBox grid = 'right' colorTxt ='deep-orange darken-4' colorScreen ='white'  TextComp={MapText} ScreenComp={MapScreen} HeaderComp ={MapHeader}/>
       <ScreenBox grid = 'left' colorTxt ='teal' colorScreen ='teal' TextComp={UniText} ScreenComp={UniScreen} HeaderComp ={UniHeader}/>
-      <ScreenBox grid = 'right' colorTxt ='blue-grey darken-1' colorScreen ='white' TextComp={EmailyText} ScreenComp={EmailyScreen} />
-      <ScreenBox grid = 'left' colorTxt ='amber accent-2' colorScreen ='grey darken-4' TextComp={KebabText} ScreenComp={KebabScreen} HeaderComp ={KebabHeader} align="valign-wrapper"/>   
-      <div className = "grey darken-1 white-text center-align">© 2020 Or Fayneh</div>
+      <ScreenBox grid = 'right'  colorTxt ='amber accent-2' colorScreen ='grey darken-4' TextComp={KebabText} ScreenComp={KebabScreen} HeaderComp ={KebabHeader} align="valign-wrapper"/>   
+      <ScreenBox grid ='left' colorTxt ='blue-grey darken-1' colorScreen ='white' TextComp={EmailyText} ScreenComp={EmailyScreen} />
+      <div className = "grey darken-1 white-text center-align">© 2021 Or Fayneh</div>
     </div>
   )
 }

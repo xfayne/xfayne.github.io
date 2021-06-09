@@ -28,7 +28,7 @@ export default function KebabScreen(props) {
       }, [props]);
 
     return (
-        <div style = {{position: 'relative', zIndex: '0'}}>
+        <div style = {{position: 'relative', zIndex: '0',overflow:'hidden'}}>
             <img src = {background} alt = '' style={{maxWidth:' 100%',maxHeight: '100%'}}/>
             {props.fade===true? <div>
                 <img src = {ars} alt = '' style={{...sizes, zIndex:'2', left: arsPos}}/>      

@@ -71,10 +71,12 @@ export default function EmailyScreen() {
         <div>
             {header()}
             <h2 className="header center light orange-text">eMaily Campaigns</h2>
-            <br/>
-            <div className= "container">
-                <div className ="row">{renderSurveys(survey3)}{renderSurveys(survey2)}{renderSurveys(survey1)}
-                <button  className="btn-floating left btn-small red" style ={{marginBottom:'10px'}} ><i className = "material-icons">add</i></button ></div>
+            
+            <div className= "container" style={{position:'relative'}}>
+                <div className ="row">
+                    {renderSurveys(survey3)}{renderSurveys(survey2)}{renderSurveys(survey1)}
+                 </div>
+                 <button  className="btn-floating btn-small red" style ={{position:'absolute',bottom:10}} ><i className = "material-icons">add</i></button >
             </div>    
         </div>
     )
