@@ -49,7 +49,7 @@ function App() {
       <ScreenBox grid = 'left' colorTxt ='teal' colorScreen ='teal' TextComp={UniText} ScreenComp={UniScreen} HeaderComp ={UniHeader}/>
       <ScreenBox grid = 'right'  colorTxt ='amber accent-2' colorScreen ='grey darken-4' TextComp={KebabText} ScreenComp={KebabScreen} HeaderComp ={KebabHeader} align="valign-wrapper"/>   
       <ScreenBox grid ='left' colorTxt ='blue-grey darken-1' colorScreen ='white' TextComp={EmailyText} ScreenComp={EmailyScreen} />
-      <div className = "grey darken-1 white-text center-align">© 2021 Or Fayneh</div>
+      <div className = "grey darken-1 white-text center-align">© 2021 Or Fayne</div>
     </div>
   )
 }

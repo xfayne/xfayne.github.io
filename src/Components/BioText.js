@@ -28,12 +28,12 @@ const Footer = ()=>
     <a target="_blank" rel="noopener noreferrer" href="mailto:xfayne@gmail.com">{socialButton('envelope')}</a>
 </div>
 
-export const BioHeader = <h4 className = "light white-text">My name is Or Fayneh and I am a junior software engineer </h4>
+export const BioHeader = <h4 className = "light white-text">My name is Or Fayne and I am a junior software engineer </h4>
 
 export default () =>
     <div>
     <div className ="hide-on-small-only light white-text" style={{fontSize:'5vh',marginBottom:'1vh'}}>
-        My name is Or Fayneh and I am a junior software engineer</div>
+        My name is Or Fayne and I am a junior software engineer</div>
     <div className = "light white-text" style={{fontSize:'2.7vh'}}>I was born and raised in Israel, 
     a breeding pool of technology and innovation. I first started programming at the age of 14, trying to 
     learn how to hack my PlayStation Portable so that I could play free games - and very quickly found myself 
